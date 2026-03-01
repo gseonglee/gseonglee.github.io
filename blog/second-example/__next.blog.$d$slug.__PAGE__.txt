@@ -1,0 +1,248 @@
+1:"$Sreact.fragment"
+2:I[23778,["/_next/static/chunks/0b4e55dcf8c259af.js","/_next/static/chunks/32515eca14397a8e.js","/_next/static/chunks/749cddf4401c2d86.js"],"default"]
+9:I[22016,["/_next/static/chunks/0b4e55dcf8c259af.js","/_next/static/chunks/32515eca14397a8e.js","/_next/static/chunks/749cddf4401c2d86.js"],""]
+a:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+:HL["/_next/static/chunks/97431fc1085fd8f3.css","style"]
+3:Tcc1,
+
+## Headings
+
+### H3 Heading
+#### H4 Heading
+
+---
+
+## Text styles
+
+- **Bold**
+- *Italic*
+- ***Bold + Italic***
+- ~~Strikethrough~~
+- `inline code`
+- Escape test: \*literal asterisks\*, \_literal underscores\_, \$literal dollar\$
+
+---
+
+## Links & Images
+
+- Link: [example.com](https://example.com/)
+- Relative link example: [Home](/)
+- Image (if your renderer supports it):
+  ![Placeholder](https://dummyimage.com/800x200/eeeeee/333333.png&text=Markdown+Image+Test)
+
+---
+
+## Lists
+
+### Unordered (nested)
+- Item A
+  - Item A-1
+  - Item A-2
+    - Item A-2-a
+- Item B
+
+### Ordered (nested)
+1. Step 1
+2. Step 2
+   1. Step 2-1
+   2. Step 2-2
+3. Step 3
+
+### Task list (renderer dependent)
+- [x] Done
+- [ ] Todo
+
+---
+
+## Blockquote
+
+> This is a blockquote.
+>
+> - It can include lists
+> - And multiple paragraphs
+
+---
+
+## Horizontal rule
+
+---
+
+## Table
+
+| Column | Type | Notes |
+|---|---:|---|
+| name | string | left-aligned |
+| count | int | right-aligned |
+| score | float | can include `inline code` |
+
+---
+
+## Footnotes (renderer dependent)
+
+This sentence has a footnote.[^note1]
+
+[^note1]: This is the footnote content.
+
+---
+
+## Code blocks
+
+### Python
+```python
+from dataclasses import dataclass
+
+@dataclass
+class Config:
+    lr: float = 1e-4
+    batch_size: int = 64
+
+def train_step(x, y, model, cfg: Config):
+    pred = model(x)
+    loss = ((pred - y) ** 2).mean()
+    return loss
+````
+
+### Bash
+
+```bash
+set -euo pipefail
+echo "Hello, Markdown!"
+ls -al
+```
+
+### JSON
+
+```json
+{
+  "name": "Gyuseong Lee",
+  "role": "Computer Vision Researcher",
+  "interests": ["diffusion", "flow", "data-centric"]
+}
+```
+
+### YAML
+
+```yaml
+model:
+  name: "example"
+  params:
+    lr: 1e-4
+    wd: 1e-2
+```
+
+### C++ (including templates)
+
+```cpp
+#include <iostream>
+#include <vector>
+
+template <typename T>
+T sum(const std::vector<T>& v) {
+    T s{};
+    for (const auto& x : v) s += x;
+    return s;
+}
+
+int main() {
+    std::vector<int> v{1,2,3};
+    std::cout << sum(v) << "\n";
+    return 0;
+}
+```
+
+### CUDA-like snippet (syntax highlighting varies)
+
+```cuda
+__global__ void saxpy(int n, float a, const float* x, float* y) {
+    int i = blockIdx.x * blockDim.x + threadIdx.x;
+    if (i < n) y[i] = a * x[i] + y[i];
+}
+```
+
+### Diff
+
+```diff
+- old_line = 1
++ new_line = 2
+```
+
+---
+
+## LaTeX math
+
+### Inline math
+
+We often write an inline equation like ( \sigma(x) = \frac{1}{1 + e^{-x}} ).
+
+### Display math
+
+$$
+\mathcal{L}(\theta) = \mathbb{E}*{(x,y)\sim \mathcal{D}}\big[\ell(f*\theta(x), y)\big]
+$$
+
+### Aligned equations
+
+$$
+\begin{aligned}
+\text{MSE} &= \frac{1}{N}\sum_{i=1}^N (y_i - \hat{y}*i)^2 \
+\text{MAE} &= \frac{1}{N}\sum*{i=1}^N |y_i - \hat{y}_i|
+\end{aligned}
+$$
+
+### Matrices
+
+$$
+A =
+\begin{bmatrix}
+1 & 2 & 3 \
+4 & 5 & 6
+\end{bmatrix}
+,\quad
+x =
+\begin{bmatrix}
+x_1\
+x_2\
+x_3
+\end{bmatrix}
+$$
+
+### Cases (piecewise)
+
+$$
+f(x)=
+\begin{cases}
+x^2 & \text{if } x \ge 0 \
+-x  & \text{if } x < 0
+\end{cases}
+$$
+
+### Common symbols
+
+$$
+\nabla_\theta \mathcal{L},\quad
+\mathbb{R}^d,\quad
+|x|_2,\quad
+\langle a, b \rangle,\quad
+\operatorname{softmax}(z)_i = \frac{e^{z_i}}{\sum_j e^{z_j}}
+$$
+
+---
+
+## Edge cases (escaping)
+
+* Asterisk: * not italic *
+* Underscore: _ not emphasis _
+* Backtick inside code: ``use `backticks` safely``
+* Dollar sign: $100 is not math
+
+
+---
+
+0:{"buildId":"RoznInIMLtGHEueY9BdOg","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-content mx-auto px-6 py-10","children":[["$","article",null,{"children":["$","$L2",null,{"post":{"slug":"second-example","langs":["en"],"en":{"title":"Markdown / Code / LaTeX Test Page","date":"2026-02-28","description":"A compact page to validate Markdown rendering, code fences, and LaTeX math.","content":"$3"},"date":"2026-02-28"}}]}],"$L4"]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+4:["$","div",null,{"className":"border-t border-gray-200 mt-10 pt-6","children":["$","$L9",null,{"href":"/blog","className":"text-sm text-gray-500 hover:text-link","children":"← All posts"}]}]
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/97431fc1085fd8f3.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/32515eca14397a8e.js","async":true}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/749cddf4401c2d86.js","async":true}]
+8:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null
