@@ -1,0 +1,489 @@
+1:"$Sreact.fragment"
+2:I[23778,["/_next/static/chunks/0b4e55dcf8c259af.js","/_next/static/chunks/32515eca14397a8e.js","/_next/static/chunks/749cddf4401c2d86.js"],"default"]
+a:I[22016,["/_next/static/chunks/0b4e55dcf8c259af.js","/_next/static/chunks/32515eca14397a8e.js","/_next/static/chunks/749cddf4401c2d86.js"],""]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+:HL["/_next/static/chunks/97431fc1085fd8f3.css","style"]
+3:Te61,------------------------------------------------------------
+
+## 제목
+
+### H3 제목
+
+#### H4 제목
+
+---
+
+## 텍스트 스타일
+
+* **굵게**
+* *기울임꼴*
+* ***굵게 + 기울임꼴***
+* ~~취소선~~
+* `인라인 코드`
+* 이스케이프 테스트: *리터럴 별표*, _리터럴 밑줄_, $리터럴 달러$
+
+---
+
+## 링크 & 이미지
+
+* 링크: [example.com](https://example.com/)
+* 상대 링크 예시: [홈](/)
+* 이미지(렌더러가 지원한다면):
+  ![플레이스홀더](https://dummyimage.com/800x200/eeeeee/333333.png\&text=Markdown+Image+Test)
+
+---
+
+## 목록
+
+### 순서 없는 목록(중첩)
+
+* 항목 A
+
+  * 항목 A-1
+  * 항목 A-2
+
+    * 항목 A-2-a
+* 항목 B
+
+### 순서 있는 목록(중첩)
+
+1. 단계 1
+2. 단계 2
+
+   1. 단계 2-1
+   2. 단계 2-2
+3. 단계 3
+
+### 작업 목록(렌더러에 따라 다름)
+
+* [x] 완료
+* [ ] 할 일
+
+---
+
+## 인용문
+
+> 이것은 인용문입니다.
+>
+> * 목록을 포함할 수 있고
+> * 여러 문단도 가능합니다
+
+---
+
+## 가로 구분선
+
+---
+
+## 표
+
+| 열     |  유형 | 비고                 |
+| ----- | --: | ------------------ |
+| name  | 문자열 | 왼쪽 정렬              |
+| count |  정수 | 오른쪽 정렬             |
+| score |  실수 | `인라인 코드`를 포함할 수 있음 |
+
+---
+
+## 각주(렌더러에 따라 다름)
+
+이 문장에는 각주가 있습니다.[^note1]
+
+[^note1]: 이것은 각주 내용입니다.
+
+---
+
+## 코드 블록
+
+### 파이썬
+
+```python
+from dataclasses import dataclass
+
+@dataclass
+class Config:
+    lr: float = 1e-4
+    batch_size: int = 64
+
+def train_step(x, y, model, cfg: Config):
+    pred = model(x)
+    loss = ((pred - y) ** 2).mean()
+    return loss
+```
+
+### Bash
+
+```bash
+set -euo pipefail
+echo "안녕, 마크다운!"
+ls -al
+```
+
+### JSON
+
+```json
+{
+  "name": "Gyuseong Lee",
+  "role": "컴퓨터 비전 연구원",
+  "interests": ["diffusion", "flow", "data-centric"]
+}
+```
+
+### YAML
+
+```yaml
+model:
+  name: "example"
+  params:
+    lr: 1e-4
+    wd: 1e-2
+```
+
+### C++ (템플릿 포함)
+
+```cpp
+#include <iostream>
+#include <vector>
+
+template <typename T>
+T sum(const std::vector<T>& v) {
+    T s{};
+    for (const auto& x : v) s += x;
+    return s;
+}
+
+int main() {
+    std::vector<int> v{1,2,3};
+    std::cout << sum(v) << "\n";
+    return 0;
+}
+```
+
+### CUDA 유사 스니펫(구문 강조는 다를 수 있음)
+
+```cuda
+__global__ void saxpy(int n, float a, const float* x, float* y) {
+    int i = blockIdx.x * blockDim.x + threadIdx.x;
+    if (i < n) y[i] = a * x[i] + y[i];
+}
+```
+
+### Diff
+
+```diff
+- old_line = 1
++ new_line = 2
+```
+
+---
+
+## LaTeX 수식
+
+### 인라인 수식
+
+우리는 종종 ( \sigma(x) = \frac{1}{1 + e^{-x}} ) 같은 인라인 방정식을 씁니다.
+
+### 디스플레이 수식
+
+$$
+\mathcal{L}(\theta) = \mathbb{E}*{(x,y)\sim \mathcal{D}}\big[\ell(f*\theta(x), y)\big]
+$$
+
+### 정렬된 방정식
+
+$$
+\begin{aligned}
+\text{MSE} &= \frac{1}{N}\sum_{i=1}^N (y_i - \hat{y}*i)^2 
+\text{MAE} &= \frac{1}{N}\sum*{i=1}^N |y_i - \hat{y}_i|
+\end{aligned}
+$$
+
+### 행렬
+
+$$
+A =
+\begin{bmatrix}
+1 & 2 & 3 
+4 & 5 & 6
+\end{bmatrix}
+,\quad
+x =
+\begin{bmatrix}
+x_1
+x_2
+x_3
+\end{bmatrix}
+$$
+
+### 케이스(구간별 정의)
+
+$$
+f(x)=
+\begin{cases}
+x^2 & \text{if } x \ge 0 
+-x  & \text{if } x < 0
+\end{cases}
+$$
+
+### 자주 쓰는 기호
+
+$$
+\nabla_\theta \mathcal{L},\quad
+\mathbb{R}^d,\quad
+|x|_2,\quad
+\langle a, b \rangle,\quad
+\operatorname{softmax}(z)_i = \frac{e^{z_i}}{\sum_j e^{z_j}}
+$$
+
+---
+
+## 엣지 케이스(이스케이프)
+
+* 별표: * 이탤릭이 아님 *
+* 밑줄: _ 강조가 아님 _
+* 코드 안의 백틱: `` `backticks`를 안전하게 사용 ``
+* 달러 기호: $100은 수식이 아님
+
+---
+4:Tcc1,
+
+## Headings
+
+### H3 Heading
+#### H4 Heading
+
+---
+
+## Text styles
+
+- **Bold**
+- *Italic*
+- ***Bold + Italic***
+- ~~Strikethrough~~
+- `inline code`
+- Escape test: \*literal asterisks\*, \_literal underscores\_, \$literal dollar\$
+
+---
+
+## Links & Images
+
+- Link: [example.com](https://example.com/)
+- Relative link example: [Home](/)
+- Image (if your renderer supports it):
+  ![Placeholder](https://dummyimage.com/800x200/eeeeee/333333.png&text=Markdown+Image+Test)
+
+---
+
+## Lists
+
+### Unordered (nested)
+- Item A
+  - Item A-1
+  - Item A-2
+    - Item A-2-a
+- Item B
+
+### Ordered (nested)
+1. Step 1
+2. Step 2
+   1. Step 2-1
+   2. Step 2-2
+3. Step 3
+
+### Task list (renderer dependent)
+- [x] Done
+- [ ] Todo
+
+---
+
+## Blockquote
+
+> This is a blockquote.
+>
+> - It can include lists
+> - And multiple paragraphs
+
+---
+
+## Horizontal rule
+
+---
+
+## Table
+
+| Column | Type | Notes |
+|---|---:|---|
+| name | string | left-aligned |
+| count | int | right-aligned |
+| score | float | can include `inline code` |
+
+---
+
+## Footnotes (renderer dependent)
+
+This sentence has a footnote.[^note1]
+
+[^note1]: This is the footnote content.
+
+---
+
+## Code blocks
+
+### Python
+```python
+from dataclasses import dataclass
+
+@dataclass
+class Config:
+    lr: float = 1e-4
+    batch_size: int = 64
+
+def train_step(x, y, model, cfg: Config):
+    pred = model(x)
+    loss = ((pred - y) ** 2).mean()
+    return loss
+````
+
+### Bash
+
+```bash
+set -euo pipefail
+echo "Hello, Markdown!"
+ls -al
+```
+
+### JSON
+
+```json
+{
+  "name": "Gyuseong Lee",
+  "role": "Computer Vision Researcher",
+  "interests": ["diffusion", "flow", "data-centric"]
+}
+```
+
+### YAML
+
+```yaml
+model:
+  name: "example"
+  params:
+    lr: 1e-4
+    wd: 1e-2
+```
+
+### C++ (including templates)
+
+```cpp
+#include <iostream>
+#include <vector>
+
+template <typename T>
+T sum(const std::vector<T>& v) {
+    T s{};
+    for (const auto& x : v) s += x;
+    return s;
+}
+
+int main() {
+    std::vector<int> v{1,2,3};
+    std::cout << sum(v) << "\n";
+    return 0;
+}
+```
+
+### CUDA-like snippet (syntax highlighting varies)
+
+```cuda
+__global__ void saxpy(int n, float a, const float* x, float* y) {
+    int i = blockIdx.x * blockDim.x + threadIdx.x;
+    if (i < n) y[i] = a * x[i] + y[i];
+}
+```
+
+### Diff
+
+```diff
+- old_line = 1
++ new_line = 2
+```
+
+---
+
+## LaTeX math
+
+### Inline math
+
+We often write an inline equation like ( \sigma(x) = \frac{1}{1 + e^{-x}} ).
+
+### Display math
+
+$$
+\mathcal{L}(\theta) = \mathbb{E}*{(x,y)\sim \mathcal{D}}\big[\ell(f*\theta(x), y)\big]
+$$
+
+### Aligned equations
+
+$$
+\begin{aligned}
+\text{MSE} &= \frac{1}{N}\sum_{i=1}^N (y_i - \hat{y}*i)^2 \
+\text{MAE} &= \frac{1}{N}\sum*{i=1}^N |y_i - \hat{y}_i|
+\end{aligned}
+$$
+
+### Matrices
+
+$$
+A =
+\begin{bmatrix}
+1 & 2 & 3 \
+4 & 5 & 6
+\end{bmatrix}
+,\quad
+x =
+\begin{bmatrix}
+x_1\
+x_2\
+x_3
+\end{bmatrix}
+$$
+
+### Cases (piecewise)
+
+$$
+f(x)=
+\begin{cases}
+x^2 & \text{if } x \ge 0 \
+-x  & \text{if } x < 0
+\end{cases}
+$$
+
+### Common symbols
+
+$$
+\nabla_\theta \mathcal{L},\quad
+\mathbb{R}^d,\quad
+|x|_2,\quad
+\langle a, b \rangle,\quad
+\operatorname{softmax}(z)_i = \frac{e^{z_i}}{\sum_j e^{z_j}}
+$$
+
+---
+
+## Edge cases (escaping)
+
+* Asterisk: * not italic *
+* Underscore: _ not emphasis _
+* Backtick inside code: ``use `backticks` safely``
+* Dollar sign: $100 is not math
+
+
+---
+
+0:{"buildId":"Vl80k5YFDVzupjb4w6EuW","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-content mx-auto px-6 py-10","children":[["$","article",null,{"children":["$","$L2",null,{"post":{"slug":"example-post","langs":["ko","en"],"ko":{"title":"마크다운 / 코드 / LaTeX 테스트 페이지","date":"2026-02-28","description":"마크다운 렌더링, 코드 펜스, LaTeX 수식을 검증하기 위한 페이지.","content":"$3"},"en":{"title":"Markdown / Code / LaTeX Test Page","date":"2026-02-28","description":"A compact page to validate Markdown rendering, code fences, and LaTeX math.","content":"$4"},"date":"2026-02-28"}}]}],"$L5"]}],["$L6","$L7","$L8"],"$L9"]}],"loading":null,"isPartial":false}
+5:["$","div",null,{"className":"border-t border-gray-200 mt-10 pt-6","children":["$","$La",null,{"href":"/blog","className":"text-sm text-gray-500 hover:text-link","children":"← All posts"}]}]
+6:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/97431fc1085fd8f3.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/32515eca14397a8e.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/749cddf4401c2d86.js","async":true}]
+9:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null

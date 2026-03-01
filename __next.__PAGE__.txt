@@ -1,0 +1,44 @@
+1:"$Sreact.fragment"
+2:I[19486,["/_next/static/chunks/0b4e55dcf8c259af.js","/_next/static/chunks/749cddf4401c2d86.js"],"default"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+:HL["/_next/static/chunks/97431fc1085fd8f3.css","style"]
+3:T866,
+I am a Computer Vision Research Scientist at [LG Electronics](#) (2024-present).
+
+My research focuses on diffusion- and flow-based generative models, as well as data-centric approaches for vision models.
+
+I received my M.S. in Computer Science from [CVLAB, Korea University](https://cvlab.kaist.ac.kr/) (2022–2024).
+
+
+## Selected Publications
+
+- **Gyuseong Lee***, Wooseok Jang*, Jin Hyeon Kim, Jaewoo Jung, Seungryong Kim.  
+  [Domain Generalization using Large Pretrained Models with Mixture-of-Adapters](https://openaccess.thecvf.com/content/WACV2025/html/Lee_Domain_Generalization_using_Large_Pretrained_Models_with_Mixture-of-Adapters_WACV_2025_paper.html).  
+  *WACV*, 2025.  
+
+- Jisu Nam, **Gyuseong Lee**, Sunwoo Kim, Hyeonsu Kim, Hyoungwon Cho, Seyeon Kim, Seungryong Kim.  
+  [Diffusion Model for Dense Matching](https://proceedings.iclr.cc/paper_files/paper/2024/hash/32246544c237164c365c0527b677a79a-Abstract-Conference.html).  
+  *ICLR* (Oral), 2024.  
+
+- Susung Hong, **Gyuseong Lee**, Wooseok Jang, Seungryong Kim.  
+  [Improving Sample Quality of Diffusion Models Using Self-Attention Guidance](https://openaccess.thecvf.com/content/ICCV2023/html/Hong_Improving_Sample_Quality_of_Diffusion_Models_Using_Self-Attention_Guidance_ICCV_2023_paper.html).  
+  *ICCV*, 2023.  
+
+
+- Junyoung Seo*, **Gyuseong Lee***, Seokju Cho, Jiyoung Lee, Seungryong Kim.  
+  [MIDMs: Matching Interleaved Diffusion Models for Exemplar-Based Image Translation](https://ojs.aaai.org/index.php/AAAI/article/view/25313).  
+  *AAAI*, 2023.  
+
+- Jiwon Kim*, Kwangrok Ryoo*, Junyoung Seo*, **Gyuseong Lee***, Daehwan Kim, Hansang Cho, Seungryong Kim.  
+  [Semi-Supervised Learning of Semantic Correspondence With Pseudo-Labels](https://openaccess.thecvf.com/content/CVPR2022/html/Kim_Semi-Supervised_Learning_of_Semantic_Correspondence_With_Pseudo-Labels_CVPR_2022_paper.html).  
+  *CVPR*, 2022.
+
+The full publication list is available on [Google Scholar](https://scholar.google.com/citations?authuser=1&user=O6B36wwAAAAJ)
+
+## Awards & Service
+
+**Outstanding Reviewer**: ECCV 2024
+
+**Reviewer**: CVPR, ICCV/ECCV, AAAI, WACV (2023–present), ICLR (2026-present)0:{"buildId":"Vl80k5YFDVzupjb4w6EuW","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-content mx-auto px-6 py-10","children":[["$","h1",null,{"className":"text-2xl font-semibold mb-1 text-gray-900","children":"Gyuseong Lee"}],["$","p",null,{"className":"mb-6 text-gray-500","children":"Computer Vision Researcher"}],["$","div",null,{"className":"prose","children":["$","$L2",null,{"content":"$3"}]}],["$","div",null,{"className":"border-t border-gray-200 mt-10 pt-6","children":["$","div",null,{"className":"flex gap-6 text-sm text-gray-500","children":[["$","a",null,{"href":"mailto:gseonglee210@gmail.com","children":"Email"}],[["$","a","GitHub",{"href":"https://github.com/gseonglee","target":"_blank","rel":"noopener noreferrer","children":"GitHub"}],["$","a","Google Scholar",{"href":"https://scholar.google.com/citations?authuser=1&user=O6B36wwAAAAJ","target":"_blank","rel":"noopener noreferrer","children":"Google Scholar"}]]]}]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/97431fc1085fd8f3.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/749cddf4401c2d86.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
