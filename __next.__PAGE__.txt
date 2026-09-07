@@ -3,12 +3,12 @@
 4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
 :HL["/_next/static/chunks/97431fc1085fd8f3.css","style"]
-3:T866,
-I am a Computer Vision Research Scientist at [LG Electronics](#) (2024-present).
+3:T8d1,
+I am a Ph.D. student at [CVLAB, KAIST](https://cvlab.kaist.ac.kr/), working on computer vision and generative models.
 
 My research focuses on diffusion- and flow-based generative models, as well as data-centric approaches for vision models.
 
-I received my M.S. in Computer Science from [CVLAB, Korea University](https://cvlab.kaist.ac.kr/) (2022–2024).
+Prior to joining KAIST, I worked as a Computer Vision Research Scientist at [LG Electronics](#) (2024-2026). I received my M.S. in Computer Science from Korea University (2022-2024).
 
 
 ## Selected Publications
@@ -40,5 +40,5 @@ The full publication list is available on [Google Scholar](https://scholar.googl
 
 **Outstanding Reviewer**: ECCV 2024
 
-**Reviewer**: CVPR, ICCV/ECCV, AAAI, WACV (2023–present), ICLR (2026-present)0:{"buildId":"QbM1LYsoNowTNiWnII21-","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-content mx-auto px-6 py-10","children":[["$","h1",null,{"className":"text-2xl font-semibold mb-1 text-gray-900","children":"Gyuseong Lee"}],["$","p",null,{"className":"mb-6 text-gray-500","children":"Computer Vision Researcher"}],["$","div",null,{"className":"prose","children":["$","$L2",null,{"content":"$3"}]}],["$","div",null,{"className":"border-t border-gray-200 mt-10 pt-6","children":["$","div",null,{"className":"flex gap-6 text-sm text-gray-500","children":[["$","a",null,{"href":"mailto:gseonglee210@gmail.com","children":"Email"}],[["$","a","GitHub",{"href":"https://github.com/gseonglee","target":"_blank","rel":"noopener noreferrer","children":"GitHub"}],["$","a","Google Scholar",{"href":"https://scholar.google.com/citations?authuser=1&user=O6B36wwAAAAJ","target":"_blank","rel":"noopener noreferrer","children":"Google Scholar"}]]]}]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/97431fc1085fd8f3.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/59fb3281b3625829.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+**Reviewer**: CVPR, ICCV/ECCV, AAAI, WACV (2023–present), ICLR (2026-present)0:{"buildId":"IQYzcUq8MPkMw7vy0vBdv","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-content mx-auto px-6 py-10","children":[["$","h1",null,{"className":"text-2xl font-semibold mb-1 text-gray-900","children":"Gyuseong Lee"}],["$","p",null,{"className":"mb-6 text-gray-500","children":"Computer Vision Researcher"}],["$","div",null,{"className":"prose","children":["$","$L2",null,{"content":"$3"}]}],["$","div",null,{"className":"border-t border-gray-200 mt-10 pt-6","children":["$","div",null,{"className":"flex gap-6 text-sm text-gray-500","children":[["$","a",null,{"href":"mailto:gseonglee210@gmail.com","children":"Email"}],[["$","a","GitHub",{"href":"https://github.com/gseonglee","target":"_blank","rel":"noopener noreferrer","children":"GitHub"}],["$","a","Google Scholar",{"href":"https://scholar.google.com/citations?authuser=1&user=O6B36wwAAAAJ","target":"_blank","rel":"noopener noreferrer","children":"Google Scholar"}]]]}]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/97431fc1085fd8f3.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/59fb3281b3625829.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null

@@ -239,7 +239,7 @@ $$
 
 ---
 
-0:{"buildId":"QbM1LYsoNowTNiWnII21-","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-content mx-auto px-6 py-10","children":[["$","article",null,{"children":["$","$L2",null,{"post":{"slug":"second-example","langs":["en"],"en":{"title":"Markdown / Code / LaTeX Test Page","date":"2026-02-28","description":"A compact page to validate Markdown rendering, code fences, and LaTeX math.","content":"$3"},"date":"2026-02-28"}}]}],"$L4"]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+0:{"buildId":"IQYzcUq8MPkMw7vy0vBdv","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-content mx-auto px-6 py-10","children":[["$","article",null,{"children":["$","$L2",null,{"post":{"slug":"second-example","langs":["en"],"en":{"title":"Markdown / Code / LaTeX Test Page","date":"2026-02-28","description":"A compact page to validate Markdown rendering, code fences, and LaTeX math.","content":"$3"},"date":"2026-02-28"}}]}],"$L4"]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
 4:["$","div",null,{"className":"border-t border-gray-200 mt-10 pt-6","children":["$","$L9",null,{"href":"/blog","className":"text-sm text-gray-500 hover:text-link","children":"← All posts"}]}]
 5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/97431fc1085fd8f3.css","precedence":"next"}]
 6:["$","script","script-0",{"src":"/_next/static/chunks/2283cb62c2a635d6.js","async":true}]
